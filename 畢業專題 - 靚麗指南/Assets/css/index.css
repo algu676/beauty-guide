@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #ff9933;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #ff9933;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+section ul ul {
+    list-style: circle;
+    margin-top: 10px;
+}
+
+section li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.main-contributions {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contribution-section {
+    flex: 1 1 calc(50% - 20px); /* 讓每一欄占一半空間並留有間隔 */
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contribution-section h3 {
+    color: #ff9933;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
